@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+<s>&copy;</s> No copyright 2019 Kevin Erazo

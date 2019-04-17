@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+body {
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    animation: random 10s infinite;
+    transition: all 0.3s;
+}
+
+p:first-child {
+    animation-delay: -2s;
+}
+
+input,
+input:focus {
+    display: inline-block;
+    border: none;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    outline: 0;
+    animation: random 10s infinite;
+    animation-delay: -3s;
+    animation-direction: alternate;
+    border-radius: 0;
+    filter: none;
+    font-size: 24px;
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=submit] {
+    animation-delay: 0s;
+    animation-direction: reverse;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+@keyframes random {
+    0% { background-color: #00ffae; }
+    15% { background-color: red; }
+    30% { background-color: yellow; }
+    45% { background-color: lightgreen; }
+    60% { background-color: lightblue; }
+    75% { background-color: pink; }
+    100% { background-color: #00ffae; }
+}
